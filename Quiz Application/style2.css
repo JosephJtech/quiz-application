@@ -1,0 +1,55 @@
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type="submit"] {
+	width: 70%;
+	background-color: blue;
+	color: green;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+form {
+	display: flex;
+	width: 60%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgb(260, 260, 260);
+	margin: 10rem 0;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 60px;
+	justify-content: center;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	border: 10%;
+	padding: 30%;
+}
+
+input {
+	padding: 15px;
+	width: 70%;
+	border-radius: 10px;
+	margin: 8px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+	margin-left: auto;
+	margin-right: auto;
+}
